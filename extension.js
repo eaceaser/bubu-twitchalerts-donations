@@ -73,7 +73,8 @@ TwitchAlertsDonations.prototype._scheduleDonationsRead = function() {
     var donation = {
       id: latest.donation_id,
       name: latest.name,
-      message: latest.message
+      message: latest.message,
+      amount: parseFloat(latest.amount).toFixed(2)
     };
 
     this.latestDonation = donation;
