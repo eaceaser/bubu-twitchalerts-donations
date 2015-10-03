@@ -1,0 +1,18 @@
+{
+  "name": "bubu-twitchalerts-donations",
+  "version": "0.1.0",
+  "nodecgDependency": "~0.6.0",
+  "homepage": "https://github.com/eaceaser/bubu-twitchalerts-donations",
+  "authors": [
+    "Ed Ceaser <ed@tehasdf.com>"
+  ],
+  "description": "Tracks donations made through TwitchAlerts",
+  "license": "MIT",
+  "extension": {
+    "express": true,
+    "path": "extension.js"
+  },
+  "bundleDependencies": [
+    "bubu-twitchalerts"
+  ]
+}

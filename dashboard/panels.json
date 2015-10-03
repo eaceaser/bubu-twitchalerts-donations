@@ -1,0 +1,8 @@
+[
+  {
+    "name": "twitchalerts-donations",
+    "title": "TwitchAlerts Donation Tracker",
+    "width": 2,
+    "file": "panel.jade"
+  }
+]
